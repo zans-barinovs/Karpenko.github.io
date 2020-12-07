@@ -1,0 +1,133 @@
+A:link {
+  color: rgb(255, 255, 255);
+}
+A:visited {
+  color: rgb(255, 255, 255);
+}
+A:hover {
+  color: rgba(255, 255, 255);
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: FuturaDemiC; /* Гарнитура шрифта */
+  src: local(FuturaDemiC), url(../fonts/futurademic.otf),
+    url(../fonts/futurademic.svg), url(../fonts/futurademic.eot);
+}
+.head {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: rgb(70, 70, 70);
+  color: white;
+  width: auto;
+  height: 20px;
+  float: left;
+}
+html {
+  background-color: rgb(45, 45, 45);
+  font-family: FuturaDemiC;
+  margin: 0px;
+  padding: 0px;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 5px;
+  float: left;
+}
+.center {
+  height: 10em;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.centerHead {
+  height: 10em;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(70, 70, 70);
+  border-radius: 10px;
+}
+.div01 {
+  width: 680px;
+  background-color: rgb(70, 70, 70);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+.div02 {
+  width: 200px;
+  background-color: rgb(70, 70, 70);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.div03 {
+  background-color: rgb(45, 45, 45);
+  border-radius: 10px;
+  width: 180px;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.div04 {
+  background-color: rgb(70, 70, 70);
+  border-radius: 10px;
+  width: 300px;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.div05 {
+  background-color: rgb(45, 45, 45);
+  border-radius: 10px;
+  width: 280px;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.imgPerson {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.ingLidmasna {
+  border-radius: 10px;
+  height: auto;
+  width: 300px;
+}
+
+.imgBig {
+  width: 700px;
+  height: auto;
+  border-radius: 10px;
+  float: left;
+}
+
+h3 {
+  margin: 0px;
+}
